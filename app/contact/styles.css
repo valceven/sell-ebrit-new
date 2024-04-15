@@ -1,0 +1,41 @@
+.contact-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 2rem auto;
+}
+
+.contact-contents{
+    display: block;
+    text-align: center;
+    max-width: 650px;
+    padding: 15px;
+    border: 1px solid black;
+    border-radius: 47px;
+    background: #efbd9b;
+    box-shadow:  11px -11px 19px #45759c91,
+                -11px 11px 19px #aa4a249c;
+}
+
+.contents h1{
+    margin-bottom: 15px;
+}
+
+.contents h5{
+    font-weight: 600;
+    padding: 5px;
+}
+
+.contents p {
+    margin: 15px;
+}
+
+.contents h3{
+    font-size: 1rem;
+    font-weight: 500;
+}
+
+.text-cont{
+    padding: 15px;
+    margin: 15px auto;
+}

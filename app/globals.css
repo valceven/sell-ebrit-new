@@ -2,32 +2,87 @@
 @tailwind components;
 @tailwind utilities;
 
-:root {
-  --foreground-rgb: 0, 0, 0;
-  --background-start-rgb: 214, 219, 220;
-  --background-end-rgb: 255, 255, 255;
-}
-
-@media (prefers-color-scheme: dark) {
-  :root {
-    --foreground-rgb: 255, 255, 255;
-    --background-start-rgb: 0, 0, 0;
-    --background-end-rgb: 0, 0, 0;
-  }
-}
-
 body {
-  color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
-}
-
-@layer utilities {
-  .text-balance {
-    text-wrap: balance;
+    background-color: #efbd9b;
+    color: #2f3d52;
+    margin: 2rem; /* Equivalent to m-8 in Tailwind */
   }
-}
+  
+  h1, h2 {
+    font-weight: bold;
+    color: #124591;
+    font-size: 1.75rem; /* Equivalent to text-lg in Tailwind */
+  }
+  
+  main {
+    max-width: 80rem; /* Equivalent to max-w-5xl in Tailwind */
+    margin: 3rem auto; /* Equivalent to my-12 and mx-auto in Tailwind */
+    padding: 2rem; /* Equivalent to px-8 in Tailwind */
+  }
+  
+  main > h2 {
+    margin-bottom: 1rem; /* Equivalent to mb-4 in Tailwind */
+    padding-bottom: 0.5rem; /* Equivalent to pb-2 in Tailwind */
+    font-size: 1.25rem; /* Equivalent to text-base in Tailwind */
+  }
+  
+  p > a {
+    color: #667eea; /* Equivalent to text-primary in Tailwind */
+    text-decoration: underline;
+  }
+  
+  nav {
+    padding-bottom: 1rem;
+    border-bottom: 2px solid #082f58;
+    display: flex;
+    align-items: center;
+    gap: 0.75rem;
+    margin-top: 2.5rem;
+    margin-bottom: 2.5rem; 
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 80rem;
+  }
+
+  nav h1{
+    margin-right: 500px;
+  }
+
+  nav a, nav span {
+    color: #2f3d52;
+    margin: 5px;
+  }
+
+  nav a:hover {
+    color: #000;
+    padding: 2px;
+    box-shadow: 0 4px 6px -1px rgba(15, 38, 141, 0.1), 0 2px 4px -1px rgba(11, 49, 119, 0.06);
+  }
+  
+  .footer-container {
+    margin: 3rem auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .footer-contents {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+  }
+  
+  .information {
+    display: flex;
+    padding: 5px;
+  }
+  
+  .social-links {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 45px;
+  }
+  
+
