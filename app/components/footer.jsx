@@ -1,3 +1,6 @@
+// import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+// import { faFacebook, faYoutube } from "@fortawesome/free-brands-svg-icons"
+
 export default function Footer() {
 
     return (

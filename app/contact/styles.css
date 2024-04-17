@@ -24,18 +24,22 @@
 .contents h5{
     font-weight: 600;
     padding: 5px;
+    margin-bottom: 15px;
 }
 
 .contents p {
     margin: 15px;
+    margin-top: 15px;
 }
 
 .contents h3{
     font-size: 1rem;
     font-weight: 500;
+    margin-bottom: 15px;
 }
 
 .text-cont{
     padding: 15px;
     margin: 15px auto;
+    
 }

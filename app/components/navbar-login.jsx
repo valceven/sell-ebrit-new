@@ -16,11 +16,8 @@ export default function Navbar(){
                 style={{ borderRadius: '35px' }}
             />
             <h1>Sell-Ebrate</h1>
-            <Link href="/">Products</Link>
-            <Link href="/about">About</Link>
-            <Link href="/contact">Contact Us</Link>
-            <Link href="/register">Register</Link>
-            <Link href="/contact">Login</Link>
+            <Link href="/">Dashboard</Link>
+            <Link href="/contact">Log Out</Link>
         </nav>
 
     );

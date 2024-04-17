@@ -1,7 +1,6 @@
 import "./styles.css"
 import Image from "next/image";
 import Adrina from "./adrian.jpg";
-// import props from
 
 export default function AboutCard ({name, desc ,link}){
 

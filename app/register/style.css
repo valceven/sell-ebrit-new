@@ -1,10 +1,12 @@
 .form-box {
-    max-width: 300px;
-    background: EFBC9B;
-    border: 2px solid black;
-    overflow: hidden;
+    max-width: 600px;
+    background: #EFBC9B;
+    border: 1px solid rgb(214, 165, 124);
+    
     border-radius: 10px;
     color: #010101;
+    box-shadow:  -24px 24px 18px #917a64;
+
   }
 
   .reg-container{
@@ -35,32 +37,38 @@
   
   /*Inputs box*/
   .form-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
     overflow: hidden;
     border-radius: 8px;
     background-color: #FBF3D5;;
     margin: 1rem 0 .5rem;
     width: 100%;
-    margin-top: 2%;
   }
   
   .input {
     background: none;
-    border: 0;
-    outline: 0;
     height: 40px;
     width: 100%;
     color: #000;
     border-bottom: 1px solid #000;
     font-size: .9rem;
-    padding: 8px 15px;
-    margin-top: 2%;
+    padding: 30px 15px;
+  }
+
+  .input-cont label{
+      text-align: left;
   }
   
   .form-section {
     padding: 16px;
     font-size: .85rem;
     background-color: #FBF3D5;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
     box-shadow: rgb(0 0 0 / 8%) 0 -1px;
+    
   }
   
   .form-section a {
@@ -89,4 +97,33 @@
   
   .form button:hover {
     background-color: #efbd9b95;
+  }
+
+  .select-container {
+    position: relative;
+    display: inline-block;
+    width: 100%;
+  }
+  
+  .input select {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    background: none;
+    height: 40px;
+    width: 100%;
+    color: #000;
+    border-bottom: 1px solid #000;
+    font-size: .9rem;
+    padding: 8px 15px; /* Adjust padding to align with text inputs */
+  }
+  
+  .input select option {
+    background-color: #FBF3D5; /* Background color for dropdown options */
+    color: #000; /* Text color for dropdown options */
+  }
+  
+  .input select:focus {
+    outline: none;
+    border-color: #000; /* Highlight border color on focus */
   }
