@@ -15,8 +15,8 @@ export default function About(){
             <div className="container">
                 <div className="contents">
                     <div className="contentz">
-                        <AboutCard name={"Adrian"} desc={"lorem"} link={"https://www.facebook.com/profile.php?id=100013644528157"}/>
-                        <AboutCard name={"La wabalo"} desc={"patotoya"} link={"https://www.facebook.com/profile.php?id=100013644528157"}/>
+                        <AboutCard name={"Adrian"} desc={"JAKARTA INNOVATION WINNER || HUAWEI AMBASSADOR / CO-OWNER"} link={"https://www.facebook.com/profile.php?id=100013644528157"}/>
+                        <AboutCard name={"SAJULGOAT"} desc={"CHINA SHENGZEN ICT WINNER  ||  BEST PROGRAMMER OF ALL TIME"} link={"https://www.facebook.com/profile.php?id=100013644528157"}/>
                     </div>
                 </div>
             </div>
